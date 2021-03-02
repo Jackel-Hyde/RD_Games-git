@@ -71,6 +71,10 @@ li {
 
 /* ТЕКСТ САЙТА */
 
+.top{
+   margin-bottom: 190px;
+}
+
 .top__title {
    width: 300px;
    margin: 0 auto;
@@ -79,6 +83,7 @@ li {
 .top__text {
    text-align: justify;
    padding: 50px 0 70px 0;
+   margin-bottom: 50px;
 }
 
 /* .create-account + .download {
@@ -142,4 +147,24 @@ li {
 
 .download a{
 	height: 35px;
+}
+
+/* СЕРВЕРА */
+
+.server{
+   margin-left: 10%;
+}
+
+.starship_troopers > img{
+   width: 500px;
+   margin-left: 160px; 
+   border: 7px outset;
+   border-color: #ffffff;
+}
+
+.global__conflict > img{
+   width: 440px;
+   margin-left: 250px; 
+   border: 7px outset;
+   border-color: #ffffff;
 }
